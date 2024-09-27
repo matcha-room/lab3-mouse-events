@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eeeeee;
+    user-select: none;
+}
+
+#top {
+    display: flex;
+    flex-direction: row;
+}
+
+.mouse-info {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.prompt {
+    font-size: 40px;
+}
+
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cheese {
+    height: 128px;
+    cursor: pointer;
+    user-select: none;
+}
+
+#cat {
+    height: 50px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    user-select: none;
+}
+
+.animated {
+    transition: top 1s, left 1s, transform 0.5s;
+}
+
+.double-click-animation {
+    transform: scale(2);
+}
